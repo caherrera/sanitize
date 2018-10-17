@@ -1,0 +1,24 @@
+{
+    "name": "caherrera/sanitizer",
+    "type": "library",
+    "keywords": ["sanitizer","validation"],
+    "homepage": "https://github.com/caherrera/sanitizer",
+    "description": "Transform and fix raw data into real and unified format data",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Carlos Herrera",
+        "email" : "carlos@itline.cl"
+      }
+    ],
+    "require": {
+      "php": ">=5.6"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "5.*"
+    },
+    "autoload": {
+        "psr-4": { "Sanitizer\\": "src/" }
+    }
+  }
+  
